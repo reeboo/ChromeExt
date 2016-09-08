@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "guahao auto",
+  "version": "3",
+  "content_scripts": [
+    {
+      "matches": ["http://www.guahao.com/expert/*"],
+      "js": ["main.js"]
+    }
+  ],
+  "permissions": ["contextMenus"]
+}
